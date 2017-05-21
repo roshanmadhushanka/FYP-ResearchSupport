@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.site-branding{ padding-left:0px; padding-top:10px; padding-bottom:10px; padding-right:0px }
+.pazero{padding-left:0px; padding-right:0px}
+.hsbc-nav-bar{ background-color: #eb003b; border-color: #eb003b; border: none; border-radius:0px}
+.widget-container{ float:right}
+.red-title{background-color:#f6171d; color:#ffffff; padding:2px 10px 2px 10px; margin-top:5px; margin-bottom:5px; font-family: 'Roboto', sans-serif; font-size:20px; font-weight:400}
+.thumbnail{border-radius:0px; border-style: solid; border-width: 4px; border-color: #f2f2f2; padding-left: 8px; padding-right: 8px; padding-bottom:38px; min-height:496px}
+.hsbc-offer{overflow:hidden;
+	-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-bottomright: 0px;
+border-top-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border: 2px solid #FF0000;
+margin-top:10px;
+background-color:#ffffff;
+padding:5px;
+margin-bottom:0px;}
+
+.lil_cal{
+	width:96px;
+	height:76px;
+	background:url(../images/off.jpg) no-repeat;
+	float:left;
+	overflow:hidden;
+	font-family: 'Roboto', sans-serif;
+	color:#e8151d;
+	font-size:35px;
+	padding-top:18px;
+	padding-bottom:22px;
+	padding-left:9px;
+	font-weight:bold
+}
+.lil_caltext{
+	width:96px;
+	height:76px;
+	float:left;
+	overflow:hidden;
+	font-family: 'Roboto', sans-serif;
+	color:#e8151d;
+	font-size:35px;
+	padding-top:18px;
+	padding-bottom:22px;
+	padding-left:9px;
+	font-weight:bold
+}
+.big_date{ text-align:center}
+.cap-text{ background-color:#f2f2f2; padding:7px;}
+.thumbnail .caption{ padding:5px 0 5px 0}
+.social{ width:30px; height:30px; float:left; margin-right:7px}
+.more-bt{ border-radius:0px; float:right; padding:5px 15px 5px 15px; margin-right: 1px; }
+.xmas-cap{width:79px; height:61px; margin-top:-37px; margin-left:-58px; background-color:transparent; margin-right:6px}
+.xmas-bell{width:79px; height:61px; margin-top:-70px; background-color:transparent; margin-right:17px; float:right; z-index:999999; position:inherit}
+.news-header{font-family: 'Open Sans', sans-serif; color:#ffffff; font-size:20px; font-weight:700; background-color:#272727; padding:4px 10px 5px 10px }
+.news-title{font-family: 'Roboto Slab', serif; color:#121212; font-size:24px; font-weight:300; }
+.news-title:hover{color:#121212;}
+.portfolio-item p{	font-family: 'Roboto', sans-serif; color:#777777; font-size:14px; font-weight:300}
+.btn-more{font-family: 'Roboto Slab', serif; color:#777777; font-size:16px; font-weight:400;}
+.btn-more:hover{color:#121212;}
+.news{ margin-bottom:10px}
+.hsbc-ads{ margin-bottom:10px; background-image:url(../images/hsbc-ads.gif); background-repeat:no-repeat; background-position:center top; padding-top:27px; padding-bottom:10px;  border-bottom:1px solid #ff0000}
+footer h5 {
+    font-size: 20px;
+    margin-bottom: 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight:300;
+}
+footer ul li {
+    line-height: 20px;
+    padding: 3px 0;
+}
+footer h5 + ul {
+    border-top: 1px solid #e4e4e4;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.list-unstyled {
+    list-style: outside none none;
+}
+footer ul li a {
+    color: #888;
+	font-size: 14px;
+    margin-bottom: 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight:300;
+}
+.copyright {
+    background: #dedede none repeat scroll 0 0;
+    line-height: 14px;
+    margin-top: 27px;
+    padding: 0px 0 25px;
+	font-family: 'Roboto', sans-serif;
+}
+.backg{background-color:#f7f7f7; padding-top:20px; margin-top:0px; border-top:1px solid #ddddde}
+
+.show-grid [class*="span"] {
+    background-color: #eee;
+    border-radius: 3px;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+.cat-bg{ background-repeat: no-repeat; margin-top:20px;}
+.red-box{ background-color:#eb003b; min-height:200px; float:right}
+
+.cat-offer{font-family: 'Roboto', sans-serif; color:#ffffff; font-size:48px; font-weight:700; margin-top:10px; margin-bottom:10px}
+.cat-offer span{font-family: 'Roboto', sans-serif; color:#ffffff; font-size:20px; font-weight:400}
+.cat-text{font-family: 'Roboto', sans-serif; color:#ffffff; font-size:24px; font-weight:400; font-style:italic; line-height:130%}
+.cat-so{ font-size:20px; color:#ffffff; margin-right:7px; margin-top:5px}
+.img-box{float:left; overflow:hidden}
+.inner-header{font-family: 'Roboto Slab', serif; font-weight:300; color:#000000; font-size:50px; line-height:125%; margin-bottom:10px; margin-top:0px}
+.inner-subheader{font-family: 'Oswald', sans-serif; font-weight:400; color:#eb003b; font-size:28px; margin-top:10px}
+.red-bg{ background-color:#eb003b;}
+.red-bg{font-family: 'Roboto', sans-serif; color:#ffffff; font-size:28px; font-weight:300; margin-top:10px; margin-bottom:10px; text-align:center; margin-left:-15px}
+.red-bgb{font-family: 'Roboto', sans-serif; color:#ffffff; font-size:28px; font-weight:300; margin-top:10px; margin-bottom:10px; text-align:center; margin-left:-15px; background-color:#eb003b;}
+.content img{ display: block !important;
+	max-width: 100% !important;
+	height: auto !important;
+	margin-right:15px}
+.content p img{ display: block !important;
+	max-width: 100% !important;
+	height: auto !important;
+	margin-right:15px}
+	
+.innerp{ border-left:1px solid #eeeeee; border-right:1px solid #eeeeee; margin-top:-20px; padding:20px}
+
+@media (max-width:768px) {
+.site-branding{ text-align:-moz-center}
+	}
+@media (min-width:768px) {
+.nav-text{font-family: 'Roboto Slab', serif; color:#FFFFFF !important; font-size:18px; font-weight:300;}
+.site-branding{ text-align:-moz-center}
+}
+
+@media (min-width:992px) {
+.nav-text{font-family: 'Roboto Slab', serif; color:#FFFFFF !important; font-size:26px; font-weight:300;}
+.site-branding{ text-align:-moz-left}
+}
+
+@media (min-width:1200px) {
+.nav-text{font-family: 'Roboto Slab', serif; color:#FFFFFF !important; font-size:26px; font-weight:300;}
+.site-branding{ text-align:-moz-left}
+}
+
+
+

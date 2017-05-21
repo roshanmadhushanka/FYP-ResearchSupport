@@ -1,0 +1,63 @@
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    /*background: #4253f4 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;*/
+    background: #3399ff;
+    font-weight: normal;
+    color: #555555;
+}
+
+.ui-widget-header {
+    border: 1px solid #000099;
+    /*background: #4253f4 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;*/
+    background: #3399ff;
+    color: #222222;
+    font-weight: bold;
+}
+
+.ui-datepicker .ui-datepicker-prev{ 
+    background-image: url("../images/icons/ruby-code-icon-prev.png");
+    background-size: 100% 100%;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    background-image: url("../images/icons/ruby-code-icon-next.png");
+    background-size: 100% 100%;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.ui-widget-content {
+    border: 1px solid #aaaaaa;
+    /*background: #000000 url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;*/
+    /*background: #000000;*/
+    background: #cce6ff;
+    color: #0033cc;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #000000;
+    /*background: #3399ff url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;*/
+    background: #3399ff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #000000;
+    /*background: #FFFFFF url("images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;*/
+    background: #FFFFFF;
+    color: #3399ff;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    color: #3399ff;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 1px solid #000000;
+    background-color: #33ccff;
+    font-weight: normal;
+    color: #3399ff;
+}

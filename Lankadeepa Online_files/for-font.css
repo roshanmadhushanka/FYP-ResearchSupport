@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: 'Malithi_Web';
+	src: url('../fonts/malithi_web.eot');
+	src: url('../fonts/malithi_web.woff') format('woff'), url('../fonts/malithi_web.ttf') format('truetype'), url('../fonts/malithi_web.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.malithi{font-family: "Malithi_Web",Helvetica;}
